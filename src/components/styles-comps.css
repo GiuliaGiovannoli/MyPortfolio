@@ -1,0 +1,104 @@
+#nav,
+#btn {
+  background-color: #866bb4;
+  margin-bottom: 2%;
+  color: aliceblue;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+}
+
+#btn {
+  transition: all 0.2s ease-in-out;
+}
+
+#btn:hover {
+  transform: scale(1.3);
+}
+
+#end {
+  display: flex;
+  justify-content: space-between;
+}
+
+#aboutme {
+  border: 3px solid #a9adbe;
+  box-shadow: 5px 5px #a9adbe;
+}
+
+#text {
+  font-size: 1.2rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+}
+
+#myprojects {
+  background-color: #a9adbe;
+  margin: 2% 0;
+}
+
+.able {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  font-size: 2rem;
+  text-align: center;
+  padding: 1%;
+}
+
+#box {
+  display: flex;
+  justify-content: space-around;
+}
+
+#little {
+  border: 3px solid aliceblue;
+  box-shadow: 5px 5px aliceblue;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+#little p {
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.git {
+  margin: 2%;
+  text-align: center;
+  display: flex;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  justify-content: center;
+}
+
+.git h4 {
+  margin: 2.5%;
+}
+
+.footer,
+.last {
+  display: flex;
+  justify-content: space-around;
+  margin: 2%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.last {
+  background-color: #866bb4;
+  color: aliceblue;
+  margin: -2%;
+}
+
+footer #btn {
+  margin-top: 3%;
+}
+
+@media (max-width: 860px) {
+  #box {
+    display: block;
+  }
+}
