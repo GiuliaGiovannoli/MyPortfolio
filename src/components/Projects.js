@@ -50,8 +50,8 @@ export default function Projects() {
         <h4>Articles User Interface </h4>
         <p>Tools: <br></br>
         Javascript, React, API, Material UI</p>
-        <Button id="btn" variant="contained" target="blank" href="kajalben.github.io/hacker-news-api/">
-            Space News
+        <Button id="btn" variant="contained" target="blank" href="https://kajalben.github.io/hacker-news-api/">
+            hackernews
         </Button>
         </Box>
         <Box p={1} id="little">
@@ -63,7 +63,7 @@ export default function Projects() {
         </Button>
         </Box>
         <Box p={1} id="little">
-        <h4>Users posting links page</h4>
+        <h4>Users Posts' Links</h4>
         <p>Tools: <br></br>
         Javascript, React, Node, Express, MongoDB, Material UI</p>
         <Button id="btn" variant="contained" target="blank" href="https://giuliagiovannoli.github.io/hackernews_challenge/">
