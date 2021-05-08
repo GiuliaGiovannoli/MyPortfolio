@@ -28,7 +28,7 @@ export default function Projects() {
         <Box p={1} id="little">
         <h4>Pokemon Fights </h4>
         <p>Tools: <br></br>
-        Javascript, React, Node, Express, MongoDB, API, Bootstrap</p>
+        Javascript, React, Node, Express, MongoDB, Bootstrap</p>
         <Button id="btn" variant="contained" target="blank" href="https://gallant-lovelace-696be0.netlify.app/">
             PokeFight
         </Button>
@@ -50,7 +50,7 @@ export default function Projects() {
         <h4>Articles User Interface </h4>
         <p>Tools: <br></br>
         Javascript, React, API, Material UI</p>
-        <Button id="btn" variant="contained" target="blank" href="https://giuliagiovannoli.github.io/SpaceNews/">
+        <Button id="btn" variant="contained" target="blank" href="kajalben.github.io/hacker-news-api/">
             Space News
         </Button>
         </Box>
@@ -63,18 +63,18 @@ export default function Projects() {
         </Button>
         </Box>
         <Box p={1} id="little">
-        <h4>Mini Yelp</h4>
+        <h4>Users posting links page</h4>
         <p>Tools: <br></br>
-        Javascript, React, Node, Express, SQL, Material UI</p>
-        <Button id="btn" variant="contained" target="blank" href="">
-        #comingsoon
+        Javascript, React, Node, Express, MongoDB, Material UI</p>
+        <Button id="btn" variant="contained" target="blank" href="https://giuliagiovannoli.github.io/hackernews_challenge/">
+        Hackernews
         </Button>
         </Box>
         </Box>
     </div>
     <div className="git">
     <h4>Check for more</h4> 
-    <Button variant="contained" target="blank" id="btn" href="https://github.com/GiuliaGiovannoli?tab=repositories">
+    <Button variant="contained" target="blank" id="btn" href="https://github.com/GiuliaGiovannoli">
     <GitHubIcon/> 
     <br></br>
     My GitHub
